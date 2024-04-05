@@ -1,0 +1,28 @@
+ <button id="add" class="btn waves-effect waves-light" type="submit" name="action">Подать заявку</i>
+  </button>
+<div class="container">
+	<table class="center-user">
+		<thead>
+			<tr>
+				<th>ФИО</th>
+				<th>Телефон</th>
+				<th>Почта</th>
+				<th>Машина</th>
+				<th>Статус заявки</th>
+				<th>Дата бронирования</th>
+			</tr>
+		</thead>
+		<tbody>
+			{{#each formattedDate}}
+				<tr>
+					<td>{{user_name}}</td>
+					<td>{{user_phone}}</td>
+					<td>{{user_email}}</td>
+					<td>{{car_model}}</td>
+					<td>{{status_name}}</td>
+					<td>{{{booking_data}}}</td>
+				</tr>
+			{{/each}}
+		</tbody>
+	</table>
+</div>
