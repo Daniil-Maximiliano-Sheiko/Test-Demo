@@ -193,3 +193,7 @@ button:hover {
 #driver_license {
 	border:2px solid rgba(8, 7, 16, 0.6);
 }
+
+#name {
+	border:2px solid rgba(8, 7, 16, 0.6);
+}
