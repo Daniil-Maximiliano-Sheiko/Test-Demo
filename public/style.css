@@ -144,7 +144,7 @@ td {
 	backdrop-filter: blur(10px);
 	box-shadow: 0 0 15px rgba(8, 7, 16, 0.6);
 	margin: 16rem 0 0 7rem;
-	width: 140px;
+	width: 150px;
 	background-color: rgba(0, 0, 0, 0.102);
 	color: rgb(57 57 57);
 }
@@ -153,6 +153,17 @@ td {
 button:hover {
 	backdrop-filter: blur(10px);
 	background-color: rgba(34, 33, 33, 0.47);
+}
+
+#bron {
+	/* backdrop-filter: blur(10px);
+	border: 2px solid rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(10px);
+	box-shadow: 0 0 15px rgba(8, 7, 16, 0.6);
+	margin: 16rem 0 0 7rem;
+	width: 150px;
+	background-color: rgba(0, 0, 0, 0.102); */
+	color: rgb(57 57 57);
 }
 
 .center-user {
